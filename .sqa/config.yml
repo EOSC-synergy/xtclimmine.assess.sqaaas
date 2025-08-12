@@ -15,64 +15,64 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/xtclimmine git:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-purple-tang.sh
-        container: qc.acc_scaly-peach-crane
+        - /usr/bin/env sh .sqa/script.messy-apricot-gorilla.sh
+        container: qc.acc_messy-chocolate-discus
   QC.Doc:
     repos:
       github.com/PalomoIFCA/xtclimmine find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-olivine-scorpion.sh
-        container: qc.doc_sickly-cornflower-albatross
+        - /usr/bin/env sh .sqa/script.goopy-aquamarine-maltese.sh
+        container: qc.doc_bluesy-flax-toad
       github.com/PalomoIFCA/xtclimmine git:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-olivine-clam.sh
-        container: qc.doc_greasy-cerulean-chinchilla
+        - /usr/bin/env sh .sqa/script.cranky-cerise-labradoodle.sh
+        container: qc.doc_jumpy-tomato-clam
       github.com/PalomoIFCA/xtclimmine markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-pear-angelfish.sh
-        container: qc.doc_boozy-pear-gibbon
+        - /usr/bin/env sh .sqa/script.messy-eggplant-octopus.sh
+        container: qc.doc_slaphappy-zucchini-donkey
   QC.Lic:
     repos:
       github.com/PalomoIFCA/xtclimmine licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-seashell-wildebeest.sh
-        container: qc.lic_flabby-ecru-leopard
+        - /usr/bin/env sh .sqa/script.surly-purple-hyrax.sh
+        container: qc.lic_squeaky-thistle-wasp
   QC.Met:
     repos:
       github.com/PalomoIFCA/xtclimmine validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-razzmatazz-dunker.sh
-        container: qc.met_sleazy-aquamarine-ant
+        - /usr/bin/env sh .sqa/script.snoopy-orchid-bear.sh
+        container: qc.met_goopy-green-gerbil
   QC.Sec:
     repos:
       github.com/PalomoIFCA/xtclimmine bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-indigo-dragonfly.sh
-        container: qc.sec_ugly-wheat-albatross
+        - /usr/bin/env sh .sqa/script.dorky-sangria-rhinoceros.sh
+        container: qc.sec_skinny-wheat-mastiff
   QC.Sty:
     repos:
       github.com/PalomoIFCA/xtclimmine flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-indigo-wolf.sh
-        container: qc.sty_sleazy-carmine-wrasse
+        - /usr/bin/env sh .sqa/script.paltry-ultramarine-chinook.sh
+        container: qc.sty_crappy-firebrick-donkey
       github.com/PalomoIFCA/xtclimmine hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-russet-woodpecker.sh
-        container: qc.sty_breezy-cinnabar-kudu
+        - /usr/bin/env sh .sqa/script.messy-tan-wolfhound.sh
+        container: qc.sty_boozy-khaki-mist
       github.com/PalomoIFCA/xtclimmine jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-khaki-angelfish.sh
-        container: qc.sty_paltry-white-civet
+        - /usr/bin/env sh .sqa/script.sleazy-lilac-shrew.sh
+        container: qc.sty_homely-russet-hamster
   QC.Uni:
     repos:
       github.com/PalomoIFCA/xtclimmine pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-blue-urchin.sh
-        container: qc.uni_cheeky-mauve-tzu
+        - /usr/bin/env sh .sqa/script.smelly-viridian-mist.sh
+        container: qc.uni_freaky-ochre-mastiff
   QC.Ver:
     repos:
       github.com/PalomoIFCA/xtclimmine get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-myrtle-horse.sh
-        container: qc.ver_woozy-crimson-blue
+        - /usr/bin/env sh .sqa/script.flimsy-ochre-labradoodle.sh
+        container: qc.ver_bumpy-burgundy-buffalo
 timeout: 5400
